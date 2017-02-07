@@ -11,17 +11,9 @@ function moveRight(){
     img.style.marginLeft=ml+'px';
 }
 
-function moveLeft(){
-    ml=ml-2;
-    img.style.marginRight=ml+'px';
-}
-
 img.onclick = function() {
     var interval = setInterval(moveRight,50);
 
-};
-    img.onclick = function() {
-    var interval = setInterval(moveLeft,0);
 };
 
 
