@@ -20,10 +20,11 @@ function moveLeft(){
 img.onclick = function() {
     var interval = setInterval(moveRight,50);
 
+ele.onclick = function() {
+    var interval = setInterval(moveLeft,50);
 };
 
-ele.onclick = function() {
-    var interval = setInterval(moveLeft,25);
 };
+
 
 
